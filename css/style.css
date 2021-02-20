@@ -1,0 +1,30 @@
+body{
+    background-image: url("picture.png");
+    /* background-color: bisque; */
+    background-repeat: no-repeat;
+    background-position: right 100px;
+}
+
+h1{
+    background-color: pink;
+}
+
+p{
+    background-color: #9900ff;
+    color:white;
+}
+
+section{
+    max-width: 400px;
+    height: 400px;
+    background-color: rgb(87, 216, 248);
+}
+
+.myBorder{
+    /* border-style: solid;
+    border-width: 5px 5px;
+    border-color: gainsboro; */
+    border: 5px solid Tomato;
+    border-radius: 200px;
+    
+}
