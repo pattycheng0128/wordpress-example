@@ -7,6 +7,9 @@ body{
 
 h1{
     background-color: pink;
+    /* text-shadow: 5px 5px gainsboro; */
+    /* letter-spacing: 10px; */
+    word-spacing: 10px;
 }
 
 p{
@@ -15,9 +18,11 @@ p{
 }
 
 section{
-    max-width: 400px;
-    height: 400px;
+    max-width: 200px;
+    height: 200px;
     background-color: rgb(87, 216, 248);
+    line-height: 200px;
+    text-align: center;
 }
 
 .myBorder{
@@ -25,6 +30,17 @@ section{
     border-width: 5px 5px;
     border-color: gainsboro; */
     border: 5px solid Tomato;
-    border-radius: 200px;
+    /* border-radius: 200px; */
     
+}
+.decoration{
+    text-decoration:overline;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type:none;
 }
