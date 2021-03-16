@@ -13,6 +13,7 @@ h1{
 }
 
 p{
+    /* max-width: 400px; */
     background-color: #9900ff;
     color:white;
 }
@@ -43,4 +44,5 @@ a{
 
 li{
     list-style-type:none;
+    display: inline;
 }
